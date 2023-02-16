@@ -1,0 +1,37 @@
+.tab-section {
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.tabs ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+li {
+  cursor: pointer;
+  color: grey;
+}
+
+.tabs ul li.active-tab {
+  border-top: 2px solid red;
+  color: #000;
+}
+
+.tab-contents .tab-content {
+  display: none;
+}
+
+.tab-contents .active-content {
+  display: block;
+}
+.tab-contents .tab-content p {
+  background-color: pink;
+  width: 30ch;
+  margin: auto;
+}
